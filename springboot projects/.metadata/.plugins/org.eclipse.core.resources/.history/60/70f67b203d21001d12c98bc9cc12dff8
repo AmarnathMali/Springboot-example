@@ -1,0 +1,6 @@
+package com.example.demoApp;
+
+@Controller
+public class DemoController {
+
+}

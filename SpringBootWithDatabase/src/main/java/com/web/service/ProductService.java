@@ -1,0 +1,17 @@
+package com.web.service;
+
+import java.util.List;
+
+import com.web.model.Product;
+
+
+public interface ProductService {
+
+	public List<Product> getAllProducts();
+	
+	public Product getProductById(int id);
+	
+	public void addProduct(Product product);
+	
+	public void deleteProduct(int id);
+}
